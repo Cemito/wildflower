@@ -1,0 +1,33 @@
+.subheading {
+  font-family: 'Pompiere', cursive;
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+.heading {
+  font-family: 'Hurricane', cursive;
+  font-size: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color:inherit;
+}
+
+body {
+  background-image: url('../img/wildflower_bg.gif');
+  background-color: #fcf7e4;
+  background-repeat: repeat-x;
+  background-attachment: fixed;
+  background-position: bottom;
+  background-size: 500px;
+}
+
+.topright {
+  position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 30px;
+}
