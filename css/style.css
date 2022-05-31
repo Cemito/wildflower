@@ -1,13 +1,13 @@
+/*.heading {*/
+/*  font-family: 'Hurricane', cursive;*/
+/*  font-size: 100px;*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*}*/
+
 .subheading {
   font-family: 'Pompiere', cursive;
   font-size: 20px;
-  margin: 0;
-  padding: 0;
-}
-
-.heading {
-  font-family: 'Hurricane', cursive;
-  font-size: 100px;
   margin: 0;
   padding: 0;
 }
@@ -22,7 +22,7 @@ body {
   background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: bottom;
-  background-size: 500px;
+  background-size: 400px;
 }
 
 .topright {
@@ -30,4 +30,26 @@ body {
   top: 8px;
   right: 16px;
   font-size: 30px;
+}
+
+.container {margin:2em 0;}
+/*
+Extra small devices (portrait phones, less than 544px)
+No media query since this is the default in Bootstrap because it is "mobile first"
+*/
+p {
+  font-size:4rem;
+  font-family: 'Hurricane', cursive;
+  margin: 0;
+  padding: 0;
+} /*1rem = 16px*/
+
+/* Small devices (landscape phones, 544px and up) */
+@media (min-width: 544px) {
+  p {font-size:8rem;} /*1rem = 16px*/
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  p {font-size:8rem;} /*1rem = 16px*/
 }
